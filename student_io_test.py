@@ -8,7 +8,7 @@ class StudentIOTest(unittest.TestCase):
     def test_convert_file_format(self):
         convert_file_format('./student.csv', './student.json', 'csv', 'json')
 
-        with open('./student.json', 'r') as f:
+        with open('./student.json', 'r', encoding='utf8') as f:
             students = json.load(f)
 
         self.assertDictEqual(students[0], {
