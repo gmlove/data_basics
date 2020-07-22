@@ -1,4 +1,4 @@
-# 数据库及SQL基础知识训练
+# 数据库及SQL知识训练
 
 有以下学生考试系统的数据库(student_examination_sys)，里面有三张表：
 
